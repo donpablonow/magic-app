@@ -1,19 +1,13 @@
 <script setup>
-// This starter template is using Vue 3 <script setup> SFCs
+// Magic App starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
+import MagicApp from './components/MagicApp.vue'</script>
 
 <template>
-  <HelloWorld msg="Vue 3 + Vite" />
+  <MagicApp msg="Vue 3 + Vite"/>
 </template>
-<style>
 
-@property --rotate {
-  syntax: "<angle>";
-  initial-value: 132deg;
-  inherits: false;
-}
+<style>
 
 :root {
   --card-height: 65vh;
@@ -32,5 +26,10 @@ body {
   font-family: sans-serif;
 }
 
+@property --rotate {
+  syntax: "<angle>";
+  initial-value: 132deg;
+  inherits: false;
+}
 
 </style>
