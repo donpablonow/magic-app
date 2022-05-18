@@ -1,6 +1,8 @@
 # Magic Vue 3 App + Vite
 
-Using this template, getting started with Vue 3 in Vite should not provide too much obstacles. To calculate the total number of hovering occurrences, we employ a basic "magic" hover effect in conjunction with a hard feedback loop event counter. 
+Using this template, getting started with Vue 3 in Vite should not provide too many obstacles. To calculate the total number of hovering occurrences, we employ a basic "magic" hover effect in conjunction with a hard feedback loop event counter.
+
+![image](https://user-images.githubusercontent.com/105825058/169172279-0f1c19c0-e20c-448c-96c3-7fdfe20d8d02.png)
 
 The template uses Vue 3 `<script setup>` SFCs,
 check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
